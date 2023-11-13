@@ -7,7 +7,7 @@ import { Color, Hero } from "../../interfaces/hero.interface";
     styles: [],
 })
 export class OrderComponent {
-    public isUpperCase: boolean = false;
+    public isUpperCase: boolean = true;
     public orderBy?: keyof Hero;
 
     public heroes: Hero[] = [
